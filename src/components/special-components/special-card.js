@@ -1,6 +1,9 @@
 import React from "react";
 import img from "./../../assets/imges/dyinglight-header_ratio.jpg";
 function SpCard() {
+	let random =Math.floor(Math.random()*100)
+	let random2 =Math.floor(Math.random()*50)
+	let random3 =Math.floor(Math.random()*30)
 	return (
 		<div className="sp-card">
 			<div className="container">
@@ -10,10 +13,10 @@ function SpCard() {
 				<div className="sp-price-cont">
 					<div className="sp-price">
 						<div className="container">
-							<div className="discount">-70%</div>
+							<div className="discount">-{random3}%</div>
 							<div className="real-price">
-								<del className="real">$29.99</del>
-								<div className="price">$8.99 USD</div>
+								<del className="real">${random2}</del>
+								<div className="price">${random} USD</div>
 							</div>
 						</div>
 					</div>
