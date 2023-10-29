@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWindows } from "@fortawesome/free-brands-svg-icons";
 function Box2() {
+	
 	return (
 		<div className="slection-box">
 			<div className="container">
