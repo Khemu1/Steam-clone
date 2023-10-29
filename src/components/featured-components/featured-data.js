@@ -11,6 +11,7 @@ import img3 from "../../assets/imges/3.jpg";
 import img4 from "../../assets/imges/4.jpg";
 
 function FeatCard() {
+	let random= Math.floor(Math.random()*150)
 	return (
 		<div className="fe-box">
 			<div className="container">
@@ -39,7 +40,7 @@ function FeatCard() {
 							<p>Best seller</p>
 						</div>
 						<div className="money-icons">
-							<div>69.59$ USD</div>
+							<div>{random}$ USD</div>
 							<div>
 								<span>
 									<FontAwesomeIcon icon={faWindows} />

@@ -4,7 +4,11 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWindows } from "@fortawesome/free-brands-svg-icons";
 function Box3() {
+	let random =Math.floor(Math.random()*100)
+	let random2 =Math.floor(Math.random()*50)
+	let random3 =Math.floor(Math.random()*30)
 	return (
+		
 		<div className="slection-box">
 			<div className="container">
 				<div className="slection-box-img">
@@ -28,7 +32,7 @@ function Box3() {
 								{/* <div className="discount">-70%</div> */}
 								<div className="real-price">
 									{/* <del className="real">$29.99</del> */}
-									<div className="price">$17.99</div>
+									<div className="price">${random2}</div>
 								</div>
 							</div>
 						</div>
